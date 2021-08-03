@@ -1,0 +1,31 @@
+body{
+    background-color: #432371;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+button{
+    /* display: inline-block; */
+    cursor: pointer;
+    /* display: inline; */
+    height: 55px;
+    width: 165px;
+    border: 2px #e9b7ce solid;
+    background-color:#aab2ff;
+    color: black;
+    border-radius: 2px;
+    font-weight: lighter;
+    transition: all 0.5s;
+    font-size: large;
+}
+
+button:hover{
+    box-shadow: 0px 0.5em 0.5em -0.4em  yellow;
+    border: 2px #faae7b solid;
+    color: white;
+    transform: translate(10px, -20px);
+    
+    border-radius: 2px;
+}
